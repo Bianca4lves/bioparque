@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.topo, .rodape {
+    background-color: #ff8014;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.largura {
+    width: 60%;
+    margin: 0 auto;
+}
+.area, .imagens, .galeria{
+    width: calc(100% - 70px);
+    margin: 20px 35px;
+}
+.conteudo {
+    overflow-y: scroll;
+    width: 930px;
+    height: 360px;
+}
+.conteudo h1, .imagens h1 {
+    font-size: 24px;
+}
+.imagens img {
+    margin: 0 2px;
+    display: flex;
+}
+.imagens {
+    overflow-x: scroll;
+    width: 900px;
+    height: 200px;
+    display: flex;
+}
